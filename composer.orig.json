@@ -21,8 +21,6 @@
             "role": "Package Author/Developer"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "repositories": [
         {
             "type": "vcs",
@@ -33,12 +31,13 @@
             "url": "https://github.com/teepluss/console"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
-        "php": ">=5.4.0",
         "illuminate/support": "^5.0",
         "illuminate/view": "^5.0",
-        "laradic/support": "dev-master",
-        "laradic/console": "dev-master",
+        "laradic/support": "^1.2.8",
+        "laradic/console": "1.0.*",
         "kriswallsmith/assetic": "~1.2",
         "vierbergenlars/php-semver": "3.0.*",
         "laravelcollective/html": "~5.1"
